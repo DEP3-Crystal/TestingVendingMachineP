@@ -17,7 +17,7 @@ public class VendingMachine {
     double amount;
     double price;
 
-    ArrayList<Integer> getChange(double M, double P) {
+   public ArrayList<Integer> getChange(double M, double P) {
 
         int c1, c5, c10, c50, d1, c25;
         int rd1, rc5, rc10, rc25, rc50;
